@@ -19,7 +19,7 @@ html {
 
 .parent_one {
   display: grid;
-  /* grid-template-rows: 30% 30% 30%; */
+  grid-template-rows: 30% 30% 30%;
 }
 
 .container_one {
