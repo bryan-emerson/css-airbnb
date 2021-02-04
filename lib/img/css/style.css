@@ -48,6 +48,21 @@ h3 {
   font-size: 24px;
 }
 
+.top_one {
+  background-image: url("../san-francisco.jpg");
+  background-size: cover;
+}
+
+.top_two {
+  background-image: url("../new-york.jpg");
+  background-size: cover;
+}
+
+.top_three {
+  background-image: url("../london.jpg");
+  background-size: cover;
+}
+
 
 
 
