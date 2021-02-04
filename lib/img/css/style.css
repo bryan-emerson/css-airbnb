@@ -1,41 +1,109 @@
+html {
+  background-color: gray;
+}
 h1 {
+  text-align: center;
+}
+h3 {
+  text-align: center;
+}
+
+.top_section {
+  display: grid;
+  grid-template-rows: 30% 30% 30%;
+}
+
+.container_one, .container_two {
+  display: flex;
+  justify-content: space-around;
+}
+
+.top, .btm {
+  display: flex;
+  width: 300px;
+  height: 300px;
+  border: 3px solid white;
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+.high_button {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.low_button {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  height: 60px;
+  width: 300px;
+  border: 3px gray;
+  font-size: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* h1 {
   color: salmon;
 }
 
-.headerparent {
+.headerchild {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
-.headerchild {
-  display: flex;
-  /* flex-direction: row; */
-  /* justify-content: center; */
-}
+
 
 html {
   background-color: gray;
 }
 
 .parent_one {
-  display: grid;
-  grid-template-rows: 30% 30% 30%;
+  display: flex;
+  flex-direction: column;
+
 }
 
-.container_one {
+.container_items {
   display: flex;
-  /* grid-template-columns: 1fr 30% 1fr 30% 1fr 30% 1fr; */
+  grid-template-columns: 1fr 30% 1fr 30% 1fr 30% 1fr;
   justify-content: space-around;
-
 }
 
 
 
 
 <img src="img/san-francisco.jpg" alt="san fran" />
-<img src="img/new-york.jpg" alt="london" /
+<img src="img/new-york.jpg" alt="london" />
 <img src="img/london.jpg" alt="london" />
 
 <img src="img/napa.jpg" alt="san fran" />
 <img src="img/sonoma.jpg" alt="london" />
-<img src="img/san-francisco-2.jpg" alt="london" />
+<img src="img/san-francisco-2.jpg" alt="london" /> */
