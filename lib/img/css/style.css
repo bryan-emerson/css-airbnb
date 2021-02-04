@@ -1,3 +1,41 @@
 h1 {
   color: salmon;
 }
+
+.headerparent {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.headerchild {
+  display: flex;
+  /* flex-direction: row; */
+  /* justify-content: center; */
+}
+
+html {
+  background-color: gray;
+}
+
+.parent_one {
+  display: grid;
+  /* grid-template-rows: 30% 30% 30%; */
+}
+
+.container_one {
+  display: flex;
+  /* grid-template-columns: 1fr 30% 1fr 30% 1fr 30% 1fr; */
+  justify-content: space-around;
+
+}
+
+
+
+
+<img src="img/san-francisco.jpg" alt="san fran" />
+<img src="img/new-york.jpg" alt="london" /
+<img src="img/london.jpg" alt="london" />
+
+<img src="img/napa.jpg" alt="san fran" />
+<img src="img/sonoma.jpg" alt="london" />
+<img src="img/san-francisco-2.jpg" alt="london" />
