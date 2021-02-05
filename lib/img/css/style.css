@@ -63,6 +63,21 @@ h3 {
   background-size: cover;
 }
 
+.btm_one {
+  background-image: url("../napa.jpg");
+  background-size: cover;
+}
+
+.btm_two {
+  background-image: url("../sonoma.jpg");
+  background-size: cover;
+}
+
+.btm_three {
+  background-image: url("../san-francisco-2.jpg");
+  background-size: cover;
+}
+
 
 
 
